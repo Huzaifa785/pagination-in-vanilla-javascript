@@ -21,8 +21,10 @@ body{
 
 /* hover effect on card */
 .card:hover{
-    transition: 0.3s;
+    transition: 0.2s;
     transform: translateY(-7px);
+    background-image: linear-gradient(to right top, #051937, #51295c, #a03361, #da5647, #eb9612);
+    color: white;
 }
 
 /* Pagination area css */
@@ -45,8 +47,9 @@ body{
 }
 
 .page-btn:hover{
-	background: #337BB3;
-	transform: translateY(-5px);
+    	transition: 0.2s;
+    	transform: translateY(-5px);
+	background-image: linear-gradient(to right top, #051937, #51295c, #a03361, #da5647, #eb9612);
 	color: white;
 }
 
